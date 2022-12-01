@@ -1,0 +1,7 @@
+a = []
+for x in range(100):
+    for y in range(100):
+        for z in range(100):
+            for w in range(100):
+                if 2 * x + z == 2 * y + w and y + 2 * w == 40 and x + 2 * z > 50: a.append(x + 2 * z)
+print(min(a))
